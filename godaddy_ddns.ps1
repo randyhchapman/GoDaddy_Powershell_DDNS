@@ -1,4 +1,4 @@
-#
+<#
 This script is used to check and update your GoDaddy DNS server to the IP address of your current internet connection.
 
 First go to GoDaddy developer site to create a developer account and get your key and secret
@@ -6,8 +6,8 @@ First go to GoDaddy developer site to create a developer account and get your ke
 https://developer.godaddy.com/getstarted
  
 Update the first 4 varriables with your information
- 
 #>
+
 $domain = 'your.domain.to.update'  # your domain
 $name = 'name_of_host' #name of the A record to update
 $key = 'key' #key for godaddy developer API
